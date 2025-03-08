@@ -8,8 +8,13 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
+<<<<<<< HEAD
       "cwd": "d:/darshan_learning/mtd_c_py",
       "program": "d:/darshan_learning/mtd_c_py/build/Debug/outDebug",
+=======
+      "cwd": "c:/Users/Darshan/Desktop/mtd_c_py",
+      "program": "c:/Users/Darshan/Desktop/mtd_c_py/build/Debug/outDebug",
+>>>>>>> 8d8eb723db93fde0ed1035ae758f5bfa21b4173b
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

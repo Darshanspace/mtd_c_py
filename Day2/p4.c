@@ -1,9 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    int inputNumber = 674783, smallest = 9, secondSmallest = 9, temp = inputNumber;
+    int inputNumber, smallest = 9, secondSmallest = 9, temp;
 
-    for (; temp > 0; temp /= 10) {
+    printf("Enter a number: ");
+    scanf("%d", &inputNumber);
+
+    temp = inputNumber;
+
+    while (temp > 0) {
         int digit = temp % 10;
 
         if (digit < smallest) {
@@ -12,6 +17,8 @@ int main() {
         } else if (digit > smallest && digit < secondSmallest) {
             secondSmallest = digit;
         }
+
+        temp /= 10;
     }
 
     if (secondSmallest == 9 && smallest != 9)
