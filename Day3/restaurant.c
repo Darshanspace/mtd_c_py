@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+int manned()
 {
     int foodType = 0, itemNumber = 0;
     puts("Welcome to our restaurant - The Taste of Delight!");
